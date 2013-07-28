@@ -14,10 +14,8 @@ Have a try
 
 It is just a normal Rails app, so give it a spin like so:
 
-    git clone <this repo>
-
+    git clone https://github.com/bugthing/steps
     bundle
-
     rails s
 
 The plan
