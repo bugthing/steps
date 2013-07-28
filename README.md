@@ -13,9 +13,11 @@ Have a try
 -----------
 
 It is just a normal Rails app, so give it a spin like so:
-  git clone <this repo>
-  bundle
-  rails s
+    git clone <this repo>
+
+    bundle
+
+    rails s
 
 The plan
 --------
