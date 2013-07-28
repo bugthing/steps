@@ -15,6 +15,7 @@ Have a try
 It is just a normal Rails app, so give it a spin like so:
 
     git clone https://github.com/bugthing/steps
+    cd steps
     bundle
     rails s
 
