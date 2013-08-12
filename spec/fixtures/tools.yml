@@ -1,0 +1,5 @@
+---
+toola:
+  id: 1
+  name: Example Tool A
+  class_name: String

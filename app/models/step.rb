@@ -1,5 +1,3 @@
-class Step
-  attr_reader :node, :tool
-  def initialize
-  end
+class Step < ActiveRecord::Base
+  attr_accessor :node, :tool
 end

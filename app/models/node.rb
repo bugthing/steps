@@ -1,9 +1,12 @@
-class Node
-  attr_reader :steps
-  attr_writer :step_source
+class Node < ActiveRecord::Base
+  extend InjectedAssociation
+
+  validates :name, presence: true
+
+  injected_association :step
+
   attr_accessor :plan
-  def initialize( )
-    @plan = nil
-    @steps = []
-  end
+  attr_writer :step_source
+  attr_writer :step_fetcher
+
 end

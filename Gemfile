@@ -33,7 +33,7 @@ group :doc do
 end
 
 group :test, :development do
-  gem 'rspec-core'
+  gem 'rspec-rails'
   gem 'debugger'
 end
 
